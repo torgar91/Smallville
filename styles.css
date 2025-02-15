@@ -1,0 +1,39 @@
+/* Configuración global */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Fondo fijo */
+body {
+    background-image: url("./media/img/smallville-fondo.jpg"); /* Reemplaza con tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Hace que el fondo sea estático */
+}
+
+/* Estilos del encabezado */
+header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparente*/
+    color: white;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Caja de contenido desplazable */
+.contenido {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
